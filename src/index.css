@@ -4,10 +4,78 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+background-image:url('/src/montre.jpg');
+background-repeat: no-repeat; 
+background-size: cover;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.style{
+
+
+  color:white;
+  text-align: center;
+  padding: 3rem 0rem;
+  margin:3rem 2rem;
+  border-radius: 2rem;
+ margin-right:2rem;
+
+}
+.style h1{
+  font-size: 2.5rem;
+  
+}
+
+.conv{
+  margin-top:0.5rem;
+}
+
+/*---style convertisseur---*/
+
+.time-inner-container {
+  display: inline-block;
+}
+.time-digits {
+  font-size: 3em;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+ 
+ 
+}
+.time-text {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(19, 18, 18);
+  
+}
+.time-text-item{
+  padding:1rem;
+
+}
+
+input{
+  margin:1rem;
+  padding: 0.7rem 5rem;
+  width:12rem;
+  text-justify: auto;
+  border-radius: 2rem;
+  background-color: transparent;
+}
+input:focus{
+  background-color: rgb(229, 217, 235);
+}
+.btn{
+  padding: 0.6rem 2rem;
+  border-radius: 2rem;
+  margin:1rem;
+  background-color: rgb(20, 23, 32);
+  color:white;
+ 
 }
