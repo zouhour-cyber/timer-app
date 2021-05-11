@@ -25,7 +25,6 @@ constructor(props){
 super (props)
    this.state = {
         sec: "",
-      
       }
 
       this.incrementation = this.incrementation.bind(this)

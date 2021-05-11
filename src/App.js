@@ -9,9 +9,6 @@ function App() {
     <div className="App">
       
      <Newtimer/>
-    
-   
-    
   
     </div>
   );
